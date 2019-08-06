@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "All the Ruby Modules"
-date:       2019-08-06 02:28:54 +0000
+date:       2019-08-05 22:28:55 -0400
 permalink:  all_the_ruby_modules
 ---
 
