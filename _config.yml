@@ -1,15 +1,14 @@
 # Site settings
+author: Tatyana Celovsky
 title: Coding Adventures
 header-img: img/home-bg.png
 email: tscotce@gmail.com
-copyright_name: tscotce
+copyright_name: Tatyana Celovsky
 description: > # this means to ignore newlines until "baseurl:"
   Let's go on a coding adventure!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: TatyanaScotce
 github_username:  tscotce
-learn_profile: tscotce
-email_username: tscotce@gmail.com
 
 # Build settings
 markdown: kramdown
