@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Overview of Active Record Associations"
-date:       2020-08-27 13:20:18 +0000
+date:       2020-08-27 09:20:18 -0400
 permalink:  overview_of_active_record_associations
 ---
 
@@ -38,18 +38,18 @@ The corresponding migration would look like this:
 
 ```ruby
 class CreatePosts < ActiveRecord::Migration
-	def change
-		create_table :authors do |t|
-			t.string :name
-			t.timestamps
-		end
+ def change
+	 create_table :authors do |t|
+		 t.string :name
+		 t.timestamps
+	 end
 
-		create_table :posts do |t|
+	 create_table :posts do |t|
       t.belongs_to :author
       t.datetime :published_at
       t.timestamps
     end
-  end
+  end 
 end
 ```
 
