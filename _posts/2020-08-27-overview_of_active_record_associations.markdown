@@ -7,7 +7,6 @@ permalink:  overview_of_active_record_associations
 
 
 This is an overview of Active Record Associations, after reading this post, you will be able to:
-
 - Understand the types of Active Record associations.
 - Declare associations between Active Record models.
 - Use the methods added to your models by creating associations.
