@@ -6,11 +6,10 @@ permalink:  overview_of_active_record_associations
 ---
 
 
-This is an overview of Active Record Associations, after reading this post, you will be able to:
-
+*This is an overview of Active Record Associations, after reading this post, you will be able to:
 - Understand the types of Active Record associations.
 - Declare associations between Active Record models.
-- Use the methods added to your models by creating associations.
+- Use the methods added to your models by creating associations.*
 
 An association is a connection between two Active Record models that is used add features to your code. Rails supports six types of associations:
 
