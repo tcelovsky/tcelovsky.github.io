@@ -39,7 +39,6 @@ First things first, figure out what you want to build and what functionality you
 _For this project, I entered the following in my terminal: `rails new backend-rails-api --api --database=postgresql`._
 
 **_Note:_**
-
 `rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and the backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
 
 1. cd into the new Rails repository just created.
@@ -97,7 +96,6 @@ This will create two migrations, two models, and two empty controllers.
 5. Run `rails db:seed` to seed the database.
 
 **_Note_**
-
 You may wish to create a custom Rake task to expedite the process of dropping, creating, migrating and seeding the database by using a single command. To do so, navigate to the lib directory and create a new file with .rake extension (I named my file dcms.rake). Inside thew newsly created file add the following code:
 
 ```
