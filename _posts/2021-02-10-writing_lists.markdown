@@ -15,16 +15,16 @@ This app is built using Rails API for the backend and JavaScript, HTML and CSS f
 
 My biggest question when building this app was: "Where do I begin?" So with that in mind I decided to write down the steps of building a Rails API with Javascript app. I hope you find this list helpful!
 
-#### Before Starting
+## Before Starting
 
 First things first, figure out what you want to build and what functionality you want your app to have. It helps to write these things down and even draw a diagram or a flow chart. This very basic flow chart can later be added to your project as a Drawio diagram.
 
-#### Create GitHub Repository
+## Create GitHub Repository
 
 1. Create a new repository in GitHub with .gitignore, README.md and LICENSE files.
 2. Clone the newly created repository to your computer using `git clone` command followed by the SSH link to the GitHub repository.
 
-#### Add .drawio Diagram
+## Add .drawio Diagram
 
 1. Create a new .drawio file using `touch .drawio` command.
 2. In the .drawio file create a diagram representing relationships between the backend models using Entity Relation shapes:
@@ -32,7 +32,7 @@ First things first, figure out what you want to build and what functionality you
    2. Include characteristings of each model.
    3. Include relationships between models.
 
-#### Setup the Backend
+## Setup the Backend
 
 1. Create Rails API structure by using `rails new` command followed by name of the Rails API:
    1. Add `--api` flag after the name to ensure that Rails only includes the necessary folders and capabilities for the API.
@@ -49,7 +49,7 @@ _For this project, I entered the following in my terminal: `rails new backend-ra
 3. cd back to the top folder of your project
 4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
 
-#### Setup the Backend (continued)
+## Setup the Backend (continued)
 
 2. cd into the new folder just created.
 3. Navigate to the gemfile and uncomment gem 'rack-cors'. This will allow [Cross Origin Resource Sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) in the API. CORS is a security feature that prevents API calls from unknown origins.
@@ -71,7 +71,7 @@ end
 
 Inside the allow block, origins '\*' means that requests from all origins are allowed. This can be changed to only allow requests from the address of the frontend repo - localhost:3000 for example.
 
-#### Code the Backend
+## Code the Backend
 
 1. Use Rails resource generator to create resources:
 
@@ -117,7 +117,7 @@ end
 
 The above code will invoke each of the Rake tasks in sequence (drop, create, migrate, seed) when running command `rake db:dcms` and will put out "Database dropped, created, migrated and seeded." message when the task has been completed.
 
-#### Code the Backend (continued)
+## Code the Backend (continued)
 
 6. Enter `rails c` in the terminal to drop into the Rails console and confirm that the seed data was populated correctly and model relationships are correct.
 7. Navigate to app/controllers/lists_controller.rb and add controller actions:
@@ -156,7 +156,7 @@ The above code will invoke each of the Rake tasks in sequence (drop, create, mig
 14. With the Rails server running, navigate to localhost:3000/list_items/1 in your browser. Confirm that JSON is rendered correctly on the page.
 15. Navigate to app/controllers/list_items_controller.rb and add create, update and destroy controller actions.
 
-#### Setup the Frontend
+## Setup the Frontend
 
 1. cd to the root folder of your project.
 2. Create frontend directory by using `mkdir` command followed by the desired name for the frontend directory.
@@ -194,7 +194,7 @@ _For this project, I entered the following in my terminal: `mkdir frontend-js`._
 
 11. Confirm that JavaScrip file was correctly linked to the HTML page by adding `console.log("JS linked to HTML")` to index.js file; then refresh the HTML page in the browser and confirm that the output is displayed in the JavaScript console.
 
-#### Code the Frontend
+## Code the Frontend
 
 1. Add the following within the `<body>` tag of index.html to create basic setup for the webpage:
 
@@ -279,7 +279,7 @@ The idea is that index.js will get loaded and will call `new App()`, which will 
 
 Continue checking the functionanlity of your app as you go.
 
-#### Add Styles
+## Add Styles
 
 1. In the styles folder create file styles.css
 2. cd into styles.css
