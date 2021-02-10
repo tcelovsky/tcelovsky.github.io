@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Writing Lists"
-date: 2020-08-27 14:00
+date: 2021-02-10 14:00
 permalink: writing_lists
 ---
 
