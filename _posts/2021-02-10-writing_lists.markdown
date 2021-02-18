@@ -262,7 +262,7 @@ class App {
 }
 ```
 
-The idea is that index.js will get loaded and will call `new App()`, which will run the App constructor function. The App constructor will set a property on the newly created app called lists that points to a new instance of the Lists object.
+        The idea is that index.js will get loaded and will call `new App()`, which will run the App constructor function. The App constructor will set a property on the newly created app called lists that points to a new instance of the Lists object.
 
 11. Create new Lists class in lists.js. This Lists Class will communicate with the Lists Adapter and will render the lists on the page.
 
