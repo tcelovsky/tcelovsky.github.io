@@ -37,15 +37,15 @@ First things first, figure out what you want to build and what functionality you
    1. Add `--api` flag after the name to ensure that Rails only includes the necessary folders and capabilities for the API.
    2. Add `--database=postgresql` flag to create the Rails API with Postgres database, instead of the default SQLite3.
 
-      _For this project, I entered the following in my terminal: `rails new backend-rails-api --api --database=postgresql`._
+   _For this project, I entered the following in my terminal: `rails new backend-rails-api --api --database=postgresql`._
 
-      **_Note:_**
-      `rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and the backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
+   **_Note:_**
+   `rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and the backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
 
-      1. cd into the new Rails repository just created.
-      2. In your terminal enter `rm -r .git`
-      3. cd back to the top folder of your project
-      4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
+   1. cd into the new Rails repository just created.
+   2. In your terminal enter `rm -r .git`
+   3. cd back to the top folder of your project
+   4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
 
    ### Setup the Backend (continued)
 
@@ -55,19 +55,19 @@ First things first, figure out what you want to build and what functionality you
 5. Run bundle install.
 6. Inside config/initializers/cors.rb file uncomment the following code:
 
-```
-Rails.application.config.middleware.insert_before 0, Rack::Cors do
-  allow do
-    origins '*'
+   ```
+   Rails.application.config.middleware.insert_before 0, Rack::Cors do
+     allow do
+       origins '*'
 
-    resource '*',
-      headers: :any,
-      methods: [:get, :post, :put, :patch, :delete, :options, :head]
-  end
-end
-```
+       resource '*',
+         headers: :any,
+         methods: [:get, :post, :put, :patch, :delete, :options, :head]
+     end
+   end
+   ```
 
-Inside the allow block, origins '\*' means that requests from all origins are allowed. This can be changed to only allow requests from the address of the frontend repo - localhost:3000 for example.
+   Inside the allow block, origins '\*' means that requests from all origins are allowed. This can be changed to only allow requests from the address of the frontend repo - localhost:3000 for example.
 
 ### Code the Backend
 
@@ -119,17 +119,17 @@ Inside the allow block, origins '\*' means that requests from all origins are al
 6. Enter `rails c` in the terminal to drop into the Rails console and confirm that the seed data was populated correctly and model relationships are correct.
 7. Navigate to app/controllers/lists_controller.rb and add controller actions:
 
-```
-    def index
-        lists = List.all
-        render json: lists, include: [:list_items]
-    end
+   ```
+       def index
+           lists = List.all
+           render json: lists, include: [:list_items]
+       end
 
-    def show
-        list = List.find(params[:id])
-        render json: list, include: [:list_items]
-    end
-```
+       def show
+           list = List.find(params[:id])
+           render json: list, include: [:list_items]
+       end
+   ```
 
 8. Navigate to app/serializers/list_serializer.rb and add `had_many :list_items` attribute.
 9. Start Rails server by entering `rails s` in your terminal and navigate to localhost:3000/lists in your browser. Confirm that JSON is rendered correctly on the page.
@@ -137,17 +137,17 @@ Inside the allow block, origins '\*' means that requests from all origins are al
 11. Navigate to app/controllers/lists_controller.rb and add create, update and destroy controller actions.
 12. Navigate to app/controllers/list_items_controller.rb and add controller actions:
 
-```
-    def index
-        list_items = ListItem.all
-        render json: list_items
-    end
+    ```
+        def index
+            list_items = ListItem.all
+            render json: list_items
+        end
 
-    def show
-        list_item = ListItem.find(params[:id])
-        render json: list_item
-    end
-```
+        def show
+            list_item = ListItem.find(params[:id])
+            render json: list_item
+        end
+    ```
 
 13. With the Rails server running, navigate to localhost:3000/list_items in your browser. Confirm that JSON is rendered correctly on the page.
 14. With the Rails server running, navigate to localhost:3000/list_items/1 in your browser. Confirm that JSON is rendered correctly on the page.
@@ -165,104 +165,104 @@ Inside the allow block, origins '\*' means that requests from all origins are al
 5. Create source and styles folders by entering `mkdir src styles` in the terminal.
 6. Navigate to index.html and add the basic HTML architecture:
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rails API with JS Project</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
+   ```
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Rails API with JS Project</title>
+       <link rel="stylesheet" href="./styles/styles.css">
+   </head>
+   <body>
 
-</body>
-</html>
-```
+   </body>
+   </html>
+   ```
 
 7. Update the title line in index.html to the desired title.
 8. Open index.html in the browser and confirm the window loads.
 9. Create new JavaScript file by entering `touch src/index.js` in the terminal.
 10. In the index.html file link the JavaScript file to the HTML page by adding the following before the closing </body> tag:
 
-```
-<script type="application/javascript" src="src/index.js"></script>
-```
+    ```
+    <script type="application/javascript" src="src/index.js"></script>
+    ```
 
 11. Confirm that JavaScrip file was correctly linked to the HTML page by adding `console.log("JS linked to HTML")` to index.js file; then refresh the HTML page in the browser and confirm that the output is displayed in the JavaScript console.
 
 ### Code the Frontend
 
-1. Add the following within the `<body>` tag of index.html to create basic setup for the webpage:
+1.  Add the following within the `<body>` tag of index.html to create basic setup for the webpage:
 
-```
-  <header>
-    <h2>My Lists</h2>
-  </header>
-  <main>
-    <div class="container">
-        <div class="new-list-container">
-          <form id="new-list-form">
-            <input type="text" name="list-title" id="new-list-title">
-            <input type="submit" value="Add List">
-          </form>
+    ```
+      <header>
+        <h2>My Lists</h2>
+      </header>
+      <main>
+        <div class="container">
+            <div class="new-list-container">
+              <form id="new-list-form">
+                <input type="text" name="list-title" id="new-list-title">
+                <input type="submit" value="Add List">
+              </form>
+            </div>
+            <div class="lists-container">
+
+            </div>
         </div>
-        <div class="lists-container">
+      </main>
+    ```
 
-        </div>
-    </div>
-  </main>
-```
+2.  Test that frontend and backend are linked correctly by adding a simple fetch request to index.js; then refresh HTML page in the browser and confirm that JSON data is rendered in the JavaScript console:
 
-2. Test that frontend and backend are linked correctly by adding a simple fetch request to index.js; then refresh HTML page in the browser and confirm that JSON data is rendered in the JavaScript console:
+    ```
+    const BASE_URL = "http://localhost:3000"
+    const LISTS_URL = `${BASE_URL}/lists`
 
-```
-const BASE_URL = "http://localhost:3000"
-const LISTS_URL = `${BASE_URL}/lists`
+    fetch(`${LISTS_URL}`)
+      .then(response => response.json())
+      .then(parsedResponse => console.log(parsedResponse));
+    ```
 
-fetch(`${LISTS_URL}`)
-  .then(response => response.json())
-  .then(parsedResponse => console.log(parsedResponse));
-```
+3.  cd into src folder and create adapters and components directories by entering `mkdir adapters components` in the terminal.
+4.  Add the following to index.js file: `const app = new App()`. The index.js file has only one responsibility - creating the new App object.
+5.  In the src/adapters folder create listsAdapter.js file. This adapter will be responsible for communicating with the rails API backend.
+6.  Add the following consts to listsAdapter.js file:
 
-3. cd into src folder and create adapters and components directories by entering `mkdir adapters components` in the terminal.
-4. Add the following to index.js file: `const app = new App()`. The index.js file has only one responsibility - creating the new App object.
-5. In the src/adapters folder create listsAdapter.js file. This adapter will be responsible for communicating with the rails API backend.
-6. Add the following consts to listsAdapter.js file:
+    ```
+    const BASE_URL = "http://localhost:3000"
+    const LISTS_URL = `${BASE_URL}/lists`
+    const LIST_ITEMS_URL = `${BASE_URL}/list_items`
+    ```
 
-```
-const BASE_URL = "http://localhost:3000"
-const LISTS_URL = `${BASE_URL}/lists`
-const LIST_ITEMS_URL = `${BASE_URL}/list_items`
-```
+7.  Create listsAdapter class and add the following code to listsAdapter.js file:
 
-7. Create listsAdapter class and add the following code to listsAdapter.js file:
+    ```
+    class ListsAdapter {
+        constructor() {
+            this.listsUrl = LISTS_URL
+            this.listItemsUrl = LIST_ITEMS_URL
+        }
 
-```
-class ListsAdapter {
-    constructor() {
-        this.listsUrl = LISTS_URL
-        this.listItemsUrl = LIST_ITEMS_URL
+        getLists() {
+            return fetch(this.listsUrl).then(res => res.json())
+        }
     }
+    ```
 
-    getLists() {
-        return fetch(this.listsUrl).then(res => res.json())
+8.  cd into src/components folder and create the following files: app.js, list.js and lists.js by running `mkdir app.js list.js lists.js` command in the terminal.
+9.  Create the App class in app.js:
+
+    ```
+    class App {
+        constructor() {
+          this.lists = new Lists()
+        }
     }
-}
-```
+    ```
 
-8. cd into src/components folder and create the following files: app.js, list.js and lists.js by running `mkdir app.js list.js lists.js` command in the terminal.
-9. Create the App class in app.js:
-
-```
-class App {
-    constructor() {
-      this.lists = new Lists()
-    }
-}
-```
-
-        The idea is that index.js will get loaded and will call `new App()`, which will run the App constructor function. The App constructor will set a property on the newly created app called lists that points to a new instance of the Lists object.
+    The idea is that index.js will get loaded and will call `new App()`, which will run the App constructor function. The App constructor will set a property on the newly created app called lists that points to a new instance of the Lists object.
 
 10. Create new Lists class in lists.js. This Lists Class will communicate with the Lists Adapter and will render the lists on the page.
 
