@@ -73,12 +73,12 @@ Inside the allow block, origins '\*' means that requests from all origins are al
 
 1. Use Rails resource generator to create resources:
 
-```
-rails g resource list title
-rails g resource list_item content list:references
-```
+   ```
+   rails g resource list title
+   rails g resource list_item content list:references
+   ```
 
-      This will create two migrations, two models, and two empty controllers.
+   This will create two migrations, two models, and two empty controllers.
 
 2. Add seed data:
    list_a = List.create(title: "To Do")
