@@ -47,7 +47,7 @@ First things first, figure out what you want to build and what functionality you
       3. cd back to the top folder of your project
       4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
 
-   ### Setup the Backend (continued)
+### Setup the Backend (continued)
 
 2. cd into the new folder just created.
 3. Navigate to the gemfile and uncomment gem 'rack-cors'. This will allow [Cross Origin Resource Sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) in the API. CORS is a security feature that prevents API calls from unknown origins.
@@ -114,7 +114,7 @@ rails g resource list_item content list:references
 
    The above code will invoke each of the Rake tasks in sequence (drop, create, migrate, seed) when running command `rake db:dcms` and will put out "Database dropped, created, migrated and seeded." message when the task has been completed.
 
-   #### Code the Backend (continued)
+   ### Code the Backend (continued)
 
 6. Enter `rails c` in the terminal to drop into the Rails console and confirm that the seed data was populated correctly and model relationships are correct.
 7. Navigate to app/controllers/lists_controller.rb and add controller actions:
