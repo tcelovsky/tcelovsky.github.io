@@ -78,7 +78,7 @@ rails g resource list title
 rails g resource list_item content list:references
 ```
 
-This will create two migrations, two models, and two empty controllers.
+      This will create two migrations, two models, and two empty controllers.
 
 2. Add seed data:
    list_a = List.create(title: "To Do")
@@ -158,7 +158,7 @@ This will create two migrations, two models, and two empty controllers.
 1. cd to the root folder of your project.
 2. Create frontend directory by using `mkdir` command followed by the desired name for the frontend directory.
 
-_For this project, I entered the following in my terminal: `mkdir frontend-js`._
+   _For this project, I entered the following in my terminal: `mkdir frontend-js`._
 
 3. cd into the newly created directory.
 4. Create HTML file by entering `touch index.html` in the terminal.
@@ -214,7 +214,7 @@ _For this project, I entered the following in my terminal: `mkdir frontend-js`._
   </main>
 ```
 
-3. Test that frontend and backend are linked correctly by adding a simple fetch request to index.js; then refresh HTML page in the browser and confirm that JSON data is rendered in the JavaScript console:
+2. Test that frontend and backend are linked correctly by adding a simple fetch request to index.js; then refresh HTML page in the browser and confirm that JSON data is rendered in the JavaScript console:
 
 ```
 const BASE_URL = "http://localhost:3000"
@@ -225,10 +225,10 @@ fetch(`${LISTS_URL}`)
   .then(parsedResponse => console.log(parsedResponse));
 ```
 
-4. cd into src folder and create adapters and components directories by entering `mkdir adapters components` in the terminal.
-5. Add the following to index.js file: `const app = new App()`. The index.js file has only one responsibility - creating the new App object.
-6. In the src/adapters folder create listsAdapter.js file. This adapter will be responsible for communicating with the rails API backend.
-7. Add the following consts to listsAdapter.js file:
+3. cd into src folder and create adapters and components directories by entering `mkdir adapters components` in the terminal.
+4. Add the following to index.js file: `const app = new App()`. The index.js file has only one responsibility - creating the new App object.
+5. In the src/adapters folder create listsAdapter.js file. This adapter will be responsible for communicating with the rails API backend.
+6. Add the following consts to listsAdapter.js file:
 
 ```
 const BASE_URL = "http://localhost:3000"
@@ -236,7 +236,7 @@ const LISTS_URL = `${BASE_URL}/lists`
 const LIST_ITEMS_URL = `${BASE_URL}/list_items`
 ```
 
-8. Create listsAdapter class and add the following code to listsAdapter.js file:
+7. Create listsAdapter class and add the following code to listsAdapter.js file:
 
 ```
 class ListsAdapter {
@@ -251,8 +251,8 @@ class ListsAdapter {
 }
 ```
 
-9. cd into src/components folder and create the following files: app.js, list.js and lists.js by running `mkdir app.js list.js lists.js` command in the terminal.
-10. Create the App class in app.js:
+8. cd into src/components folder and create the following files: app.js, list.js and lists.js by running `mkdir app.js list.js lists.js` command in the terminal.
+9. Create the App class in app.js:
 
 ```
 class App {
@@ -264,15 +264,15 @@ class App {
 
         The idea is that index.js will get loaded and will call `new App()`, which will run the App constructor function. The App constructor will set a property on the newly created app called lists that points to a new instance of the Lists object.
 
-11. Create new Lists class in lists.js. This Lists Class will communicate with the Lists Adapter and will render the lists on the page.
+10. Create new Lists class in lists.js. This Lists Class will communicate with the Lists Adapter and will render the lists on the page.
 
-12. Navigate to list.js and create a new List class. The point of the List class is to house all the HTML and DOM manipulation logic related to lists.
+11. Navigate to list.js and create a new List class. The point of the List class is to house all the HTML and DOM manipulation logic related to lists.
 
-13. Create a new file "listItem.js" in the "components" folder. The point of the ListItems class is to house all the HTML and DOM manipulation logic related to list items.
+12. Create a new file "listItem.js" in the "components" folder. The point of the ListItems class is to house all the HTML and DOM manipulation logic related to list items.
 
-14. Next, focus on add list and add list item functionality of the app keeping in mind that listsAdapter.js houses all the logic related to communicating with the backend (such as `fetch` requests).
+13. Next, focus on add list and add list item functionality of the app keeping in mind that listsAdapter.js houses all the logic related to communicating with the backend (such as `fetch` requests).
 
-15. Next, focus on delete list and delete list item functionality of the app.
+14. Next, focus on delete list and delete list item functionality of the app.
 
 Continue checking the functionanlity of your app as you go.
 
