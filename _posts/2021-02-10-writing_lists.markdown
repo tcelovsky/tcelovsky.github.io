@@ -33,18 +33,19 @@ First things first, figure out what you want to build and what functionality you
 ### Setup the Backend
 
 1. Create Rails API structure by using `rails new` command followed by name of the Rails API:
+
    1. Add `--api` flag after the name to ensure that Rails only includes the necessary folders and capabilities for the API.
    2. Add `--database=postgresql` flag to create the Rails API with Postgres database, instead of the default SQLite3.
 
-_For this project, I entered the following in my terminal: `rails new backend-rails-api --api --database=postgresql`._
+      _For this project, I entered the following in my terminal: `rails new backend-rails-api --api --database=postgresql`._
 
-**_Note:_**
-`rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and the backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
+      **_Note:_**
+      `rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and the backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
 
-1. cd into the new Rails repository just created.
-2. In your terminal enter `rm -r .git`
-3. cd back to the top folder of your project
-4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
+      1. cd into the new Rails repository just created.
+      2. In your terminal enter `rm -r .git`
+      3. cd back to the top folder of your project
+      4. Ensure that the items listes in the .gitignore file at the root of your project are prefaced with the name of your backend repository. For me this meant adding 'backend-rails-api' at the front of each item listed in the .gitignore file.
 
 ### Setup the Backend (continued)
 
