@@ -78,7 +78,7 @@ I find that actually starting the project is the most difficult part. As I was a
 
 _For this project, I entered the following in my terminal: `rails new backend --api --database=postgresql`._
 
-**Note**
+**Note.**
 `rails new` command will generate a new Rails repository that will include .git folder. In order to ensure that both the frontend and backend can be stored in the same repository on GitHub (in two separate folders), you'll have to delete this .git file as it will prevent you from pushing your new backend repository to GitHub:
 
 - cd into the new Rails repository just created.
@@ -109,7 +109,7 @@ end
 
 Inside the allow block, origins '\*' means that requests from all origins are allowed. This can be changed to only allow requests from the address of the frontend repo - localhost:3000 for example.
 
-**Note**
+**Note.**
 You may wish to create a custom Rake task to expedite the process of dropping, creating, migrating and seeding the database by using a single command. To do so, navigate to the lib directory and create a new file with .rake extension (I named my file dcms.rake). Inside thew newsly created file add the following code:
 
       ```
