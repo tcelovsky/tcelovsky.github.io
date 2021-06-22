@@ -41,11 +41,11 @@ Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit
 
 Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
->“Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.” <cite>― Scott Adams ―</cite>
+> “Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.” <cite>― Scott Adams ―</cite>
 
 Lorem ipsum dolor sit amet, `consectetuer adipiscing` elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
---------
+---
 
 ## Code Blocks
 
@@ -126,20 +126,23 @@ footer p {
 }</code></pre>
 
 ## Lists
+
 ### Unordered Lists
 
 The HTML &lt;ul&gt; element represents an unordered list of items, typically rendered as a bulleted list.
 
 Usage notes:
-* The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
-* There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
-* The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
+
+- The &lt;ul&gt; element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared.
+- There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
+- The &lt;ol&gt; and &lt;ul&gt; elements both represent a list of items. They differ in that, with the &lt;ol&gt; element, the order is meaningful.
 
 ### Ordered Lists
 
 The HTML &lt;ol&gt; element represents an ordered list of items, typically rendered as a numbered list.
 
 Usage notes:
+
 1. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets.
 2. There is no limitation to the depth and alternation of nested lists defined with the &lt;ol&gt; and &lt;ul&gt; elements.
 3. The &lt;ol&gt; and &lt;ul&gt; both represent a list of items. They differ in the way that, with the &lt;ol&gt; element, the order is meaningful.
@@ -195,4 +198,3 @@ Footnotes are a great way to add additional contextual details when appropriate.
 ## Audio
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165895349&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-

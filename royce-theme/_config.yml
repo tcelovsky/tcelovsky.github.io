@@ -39,8 +39,8 @@ navigation:
     url: /
   - text: About
     url: /about
-  - text: Style Guide
-    url: /style-guide
+  - text: Projects
+    url: /projects
   - text: Contact Me
     url: /contact
   - text: Search
