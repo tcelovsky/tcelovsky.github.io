@@ -9,7 +9,7 @@ To set up Jekyll on local machine please follow the official documentation that 
 To run this project locally:
 
 - Fork and clone the repository
-- Fun bundle install (if you do not have bundler installed run `gem install bundler`)
+- Fun `bundle install` (if you do not have bundler installed run `gem install bundler`)
 - Run `jekyll serve`
 
 Now the project will be available locally on `localhost:4000`
