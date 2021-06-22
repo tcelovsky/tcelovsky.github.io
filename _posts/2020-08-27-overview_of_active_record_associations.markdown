@@ -4,6 +4,7 @@ title: "Overview of Active Record Associations"
 date: 2020-08-27 09:20:18 -0400
 permalink: overview_of_active_record_associations
 tags: [Active Record, Ruby on Rails]
+featured_image: assets/images/posts/overview-of-active-record-associations/tamanna-rumee-cTzk0ymPpu0-unsplash.jpg
 ---
 
 This is an overview of Active Record Associations, after reading this post, you will be able to:
