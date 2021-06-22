@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: "author_image.jpg"
-  greetings: "Hi, I'm Tatyana, a full stack software engineer with experience in Ruby on Rails, Javascript, React/Redux, HTML and CSS. This is my personal website. Glad you are here!"
+  greetings: "Hi, I'm Tatyana. I'm a full stack software engineer with experience in Ruby on Rails, Javascript, React/Redux, HTML and CSS. This is my personal website. Glad you are here!"
 favicon:
 baseurl: ""
 production_url: https://royce.netlify.com/
