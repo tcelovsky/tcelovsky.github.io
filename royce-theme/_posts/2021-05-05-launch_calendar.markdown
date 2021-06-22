@@ -5,7 +5,7 @@ date: 2021-05-05 19:46
 permalink: launch_calendar
 # tags: [JavaScript, Tips]
 # featured_image_thumbnail:
-featured_image: assets/images/posts/2019/desk.jpg
+featured_image: assets/images/posts/launch-calendar/spacex--p-KCm6xB9I-unsplash.jpg
 featured: true
 hidden: true
 ---

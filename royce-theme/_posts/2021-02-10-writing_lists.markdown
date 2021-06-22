@@ -5,7 +5,7 @@ date: 2021-02-10 14:00
 permalink: writing_lists
 # tags: [JavaScript, Tips]
 # featured_image_thumbnail:
-featured_image: assets/images/posts/2019/desk.jpg
+featured_image: assets/images/posts/writing-lists/kelly-sikkema-jr61kHaWKek-unsplash.jpg
 featured: true
 hidden: true
 ---

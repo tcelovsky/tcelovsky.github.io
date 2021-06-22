@@ -5,7 +5,7 @@ date: 2020-07-29 20:01:57 +0000
 permalink: workout_studio_rails_project
 # tags: [JavaScript, Tips]
 # featured_image_thumbnail:
-featured_image: assets/images/posts/2019/desk.jpg
+featured_image: assets/images/posts/workout-studio-rails-project/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg
 featured: true
 hidden: true
 ---
