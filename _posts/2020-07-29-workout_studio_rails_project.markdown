@@ -7,7 +7,7 @@ tags: [Ruby on Rails, Tutorial]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/workout-studio-rails-project/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg
 featured: false
-hidden: true
+hidden: false
 ---
 
 ### (Sessions Controller Create Route)
