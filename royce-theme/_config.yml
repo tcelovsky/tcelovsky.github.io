@@ -7,7 +7,7 @@ logo:
 author:
   image: "authorimage.jpg"
   greetings: "Hi, I'm Tatyana, a full stack software engineer with experience in Ruby on Rails, Javascript, React/Redux, HTML and CSS. This is my personal website. Glad you are here!"
-favicon: "assets/images/favicon.ico"
+favicon:
 baseurl: ""
 production_url: https://royce.netlify.com/
 disqus:
