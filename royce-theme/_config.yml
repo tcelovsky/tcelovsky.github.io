@@ -1,0 +1,68 @@
+# Site setings
+name: "Tatyana Celovsky"
+description: "Full stack software engineer"
+meta_description: "Jekyll template, minimal style, perfect for bloggers."
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: "author_image.jpg"
+  greetings: "Hi, I'm Tatyana. I'm a full stack software engineer with experience in Ruby on Rails, Javascript, React/Redux, HTML and CSS. This is my personal website. Glad you are here!"
+favicon:
+baseurl: ""
+production_url: https://royce.netlify.com/
+disqus:
+mailchimp_url:
+# Add your GA Tracking Id
+ga_analytics:
+
+# Contact form setings
+email: tatyana.celovsky@email.com
+contact_page_description: "Fill out the form below to get in touch."
+thankyou_page_description: "Your message has been successfully sent. I'll be in touch very soon!"
+
+# Social links
+twitter: "TatyanaCelovsky"
+facebook:
+github: "tcelovsky"
+codepen:
+dribbble:
+medium:
+instagram:
+pinterest:
+linkedin:
+producthunt:
+quora:
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: Projects
+    url: /projects
+  - text: About
+    url: /about
+  - text: Contact Me
+    url: /contact
+  - text: Search
+    url: /search
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
