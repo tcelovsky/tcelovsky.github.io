@@ -33,3 +33,18 @@ A productivity app that allows users to create multiple lists and add items to t
 <div style="position: relative; padding-bottom: 56.33802816901409%; height: 0;"><iframe src="https://www.loom.com/embed/d62171369dd645c4956c4410dd62c95c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 <hr>
+
+## Sweat Workout Studio
+
+[GitHub](https://github.com/tcelovsky/workout_studio_rails_project)
+
+A website created for a fictional Sweat Workout Studio. Students are able to register, login, logout, sign up for and drop workout classes. Students are also able to edit their information (and not able to see information of other students). Here are a few more details:
+
+- Built the backend with Ruby on Rails utilizing the MVC pattern and ActiveRecord
+- Designed database schema and utilized SQLite database to store information on classes and users
+- Implemented user interface employing Javascript and HTML with CSS for styling
+- Utilized OmniAuth gem to authenticate users and Bcrypt gem to securely store passwords
+
+<div style="position: relative; padding-bottom: 56.33802816901409%; height: 0;"><iframe src="https://www.loom.com/embed/25f8bf0992314a82b4789ca731d97a7e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<hr>
