@@ -15,7 +15,7 @@ Launch Calendar is a web app that lists out upcoming rocket launches around the 
 - Leveraged Redux and middleware for asynchronous data retrieval from the backend API
 - Implemented user interface employing React and Redux with CSS for styling
 
-<div style="position: relative; padding-bottom: 50.18587360594795%; height: 0;"><iframe src="https://www.loom.com/embed/f56d72826659481eb942c76f774af2da" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.33802816901409%; height: 0;"><iframe src="https://www.loom.com/embed/d7763c61a93a457b883faeba4714397c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 <hr>
 
