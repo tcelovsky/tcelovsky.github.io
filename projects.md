@@ -30,6 +30,6 @@ A productivity app that allows users to create multiple lists and add items to t
 - Leveraged Redux and middleware for asynchronous data retrieval, update and deletion from the backend API
 - Implemented user interface employing React and Redux with CSS for styling
 
-<div style="position: relative; padding-bottom: 50.45550105115627%; height: 0;"><iframe src="https://www.loom.com/embed/59bc03fa9225477396f928abfce14a56" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.33802816901409%; height: 0;"><iframe src="https://www.loom.com/embed/d62171369dd645c4956c4410dd62c95c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 <hr>
