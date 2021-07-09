@@ -6,6 +6,7 @@ permalink: why_am_i_here
 tags: [About]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/why-am-i-here/jose-castillo-8Bc9CJgXHXs-unsplash.jpg
+fig-caption: Photo by [Jose Castillo](https://unsplash.com/@curiousjorge) on [Unsplash](https://unsplash.com/)
 featured: true
 hidden: true
 ---
