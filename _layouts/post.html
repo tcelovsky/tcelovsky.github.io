@@ -27,6 +27,9 @@ post_class: post-template
         {% if page.featured_image %}
         <div class="post-thumbnail">
             <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="{{ page.title }}">
+            {% if page.image_caption %}
+            <figcaption>Photo by <a href="{{ page.photographer_name_url }}">{{ page.photographer_name }}</a> on <a href="{{ page.image_source_url }}">{{ page.image_source }}</a></figcaption>
+            {% endif %}
         </div>
         {% endif %}
         <div class="post-content">

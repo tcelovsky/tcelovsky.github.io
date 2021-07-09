@@ -6,7 +6,11 @@ permalink: workout_studio_rails_project
 tags: [Ruby on Rails, Tutorial]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/workout-studio-rails-project/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg
-fig-caption: Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/)
+image_caption: true
+photographer_name: Kelly Sikkema
+photographer_name_url: https://unsplash.com/@kellysikkema
+image_source: Unsplash
+image_source_url: https://unsplash.com/
 featured: false
 hidden: false
 ---
