@@ -6,6 +6,7 @@ permalink: launch_calendar
 tags: [Rails API, React, Tutorial]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/launch-calendar/spacex--p-KCm6xB9I-unsplash.jpg
+fig-caption: Photo by [SpaceX](https://unsplash.com/@spacex) on [Unsplash](https://unsplash.com/)
 featured: true
 hidden: true
 ---

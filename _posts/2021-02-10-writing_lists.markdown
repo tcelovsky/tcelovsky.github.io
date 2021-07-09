@@ -6,8 +6,7 @@ permalink: writing_lists
 tags: [Rails API, Javascript, Tutorial]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/writing-lists/kelly-sikkema-jr61kHaWKek-unsplash.jpg
-fig-caption: Photo by [Kelly Sikkema
-](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/)
+fig-caption: Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/)
 featured: true
 hidden: true
 ---
