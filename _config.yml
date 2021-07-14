@@ -13,7 +13,7 @@ production_url: https://royce.netlify.com/
 disqus: tatyanacelovsky
 mailchimp_url:
 # Add your GA Tracking Id
-ga_analytics:
+ga_analytics: G-E3TT4LY19S
 
 # Contact form setings
 email: tatyana.celovsky@email.com
