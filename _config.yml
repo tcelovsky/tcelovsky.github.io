@@ -10,7 +10,7 @@ author:
 favicon:
 baseurl: ""
 production_url: https://royce.netlify.com/
-disqus:
+disqus: tatyanacelovsky
 mailchimp_url:
 # Add your GA Tracking Id
 ga_analytics:
