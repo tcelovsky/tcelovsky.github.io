@@ -76,56 +76,17 @@ Take a look at the below code example:
 
 <script src="https://gist.github.com/tcelovsky/a62b16ed73af772b7180d03e98ce5f4c.js"></script>
 
-```
-const numbers = [1, 2, 3, 4, 5]
-
-function logTwice(numbers) {
-	for (let i = 0; i < numbers.length; i++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		console.log(numbers[i]); //O(1) --> constant time (basic operation)
-	}
-	for (let i = 0; i < numbers.length; i++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		console.log(numbers[i]); //O(1) --> constant time (basic operation)
-	}
-}
-```
-
 Here we have two separate loops that are iterating through the length of an array (linear time). Each loop logs an item in the collection (constant time). As mentioned above, we are not concerned with operation that run in constant time. Therefore, we only have to take the two loops into account and add them to calculate the Big-O. This gives us O(2n), but number 2 is a constant, so we drop it and are left with the Big-O of O(n).
 
 ### O(n²) or Quadratic Time
 
 Now take a loop at the code example below, it's very similar to what we just saw, but here we nested our loops:
 
-```
-const numbers = [1, 2, 3, 4, 5]
-
-function logFiveTimes(numbers) {
-	for (let i = 0; i < numbers.length; i++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		for (let i = 0; i < numbers.length; i++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		console.log(numbers[i]); //O(1) --> constant time (basic operation)
-		}
-	}
-}
-```
+<script src="https://gist.github.com/tcelovsky/f33683c40d6fdb30fb9f738879115f5b.js"></script>
 
 In this example of nested loops we are logging `numbers[i]` five times. To calculate Big-O here we have to multiply O(n) \* O(n), because the execution of our log is dependent on iterating through the entirety of the second loop before we can increment `i` and move to the next index in our first loop. Thus, the Big-O in this case is O(n²).
 
-```
-const numbers = [1, 2, 3, 4, 5]
-
-function logAndSum(numbers) {
-	for (let i = 0; i < numbers.length; i++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		for (let j = 0; j < numbers.length; j++) { //O(n) --> linear time (run time increases at the same pace as the input)
-		console.log(numbers[i]); //O(1) --> constant time (basic operation)
-		}
-	}
-
-	const sum = numbers.reduce((acc, number) => { //O(n) --> linear time (run time increases at the same pace as the input)
-		return acc += number;  //O(1) --> constant time (basic operation)
-	}, 0);
-
-	return sum; //O(1) --> constant time (basic operation)
-}
-```
+<script src="https://gist.github.com/tcelovsky/aba19ebcfa797a4dc7eed889ceb932eb.js"></script>
 
 The top potion of this function is the same as our previous example, we know its Big-O is O(n²). Then we may want to add O(n) related to the `reduce` function, which is linear. We get O(n² + n). However, Big-O is not concerned with non-dominant terms and because quadratic time is worse than linear time, we drop the second n. The final Big-O of the above function is O(n²).
 
@@ -133,28 +94,7 @@ The top potion of this function is the same as our previous example, we know its
 
 Take a look at this code example:
 
-```
-const array = [1, 2, 4, 8 ,16, 32, 64, 128, 256];
-const number = 128;
-
-function binarySearch(array, number) {
-	let startIndex = 0;
-	let endIndex = (array.length)-1;
-
-	while (startIndex <= endIndex) {
-		let pivot = Math.floor((startIndex + endIndex)/2);
-
-		if (array[pivot] === number) {
-			return `Located ${number} at ${pivot}`;
-		} else if (array[pivot] < number) {
-			startIndex = pivot + 1;
-		} else {
-			endIndex = pivot - 1;
-		}
-	}
-	return false;
-}
-```
+<script src="https://gist.github.com/tcelovsky/dd455f417bd0eb09abd3db54e55b9f4a.js"></script>
 
 Here we are trying to locate number 128 in a given (already sorted) array. In the first iteration of our `while` loop, we split our data (the array) in half and call that point a pivot. We then check to see if the value in the array at pivot equals 128. If it does, we return a statement to say where the number was located. If it's less than 128, then we change the value of our `startIndex` to the value of pivot plus one. That's because if the value of pivot is less than 128, then we know that all of the numbers preceding pivot will also be lower than 128 (remember, the array has been sorted). If the value of pivot is greater than 128, then we change the value of our `startIndex` to the value of pivot minus one. This way we are able to halve our data.
 
