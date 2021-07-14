@@ -80,7 +80,7 @@ Here we have two separate loops that are iterating through the length of an arra
 
 ### O(n²) or Quadratic Time
 
-Now take a loop at the code example below, it's very similar to what we just saw, but here we nested our loops:
+Now take a look at the code example below, it's very similar to what we just saw, but here we nested our loops:
 
 <script src="https://gist.github.com/tcelovsky/f33683c40d6fdb30fb9f738879115f5b.js"></script>
 
@@ -88,7 +88,7 @@ In this example of nested loops we are logging `numbers[i]` five times. To calcu
 
 <script src="https://gist.github.com/tcelovsky/aba19ebcfa797a4dc7eed889ceb932eb.js"></script>
 
-The top potion of this function is the same as our previous example, we know its Big-O is O(n²). Then we may want to add O(n) related to the `reduce` function, which is linear. We get O(n² + n). However, Big-O is not concerned with non-dominant terms and because quadratic time is worse than linear time, we drop the second n. The final Big-O of the above function is O(n²).
+The top portion of this function is the same as our previous example, we know its Big-O is O(n²). Then we may want to add O(n) related to the `reduce` function, which is linear. We get O(n² + n). However, Big-O is not concerned with non-dominant terms and because quadratic time is worse than linear time, we drop the second n. The final Big-O of the above function is O(n²).
 
 ### O(log n) or Logarithmic Time
 
