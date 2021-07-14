@@ -11,8 +11,8 @@ photographer_name: Kelly Sikkema
 photographer_name_url: https://unsplash.com/@kellysikkema
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _My Rails API with Javascript Project_
