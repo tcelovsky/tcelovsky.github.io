@@ -74,6 +74,8 @@ Remember that Big-O notation helps us track how quickly the runtime of the funct
 
 Take a look at the below code example:
 
+<script src="https://gist.github.com/tcelovsky/a62b16ed73af772b7180d03e98ce5f4c.js"></script>
+
 ```
 const numbers = [1, 2, 3, 4, 5]
 
