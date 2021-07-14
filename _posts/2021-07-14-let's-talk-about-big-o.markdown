@@ -106,12 +106,20 @@ Having a good understanding of Big-O notation provides a more well-rounded conte
 
 ## Resources 
 
-- [O(n) Example gist](https://gist.github.com/tcelovsky/a62b16ed73af772b7180d03e98ce5f4c)
-- [O(n²) Example gist](https://gist.github.com/tcelovsky/f33683c40d6fdb30fb9f738879115f5b)
-- [O(n²) Example 2 gist](https://gist.github.com/tcelovsky/aba19ebcfa797a4dc7eed889ceb932eb)
-- [O(log n) Example gist](https://gist.github.com/tcelovsky/dd455f417bd0eb09abd3db54e55b9f4a)
-- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
-- [What is Big O Notation Explained: Space and Time Complexity](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
-- [Bubble Sort Algorithm](https://www.programiz.com/dsa/bubble-sort)
-- [Insertion Sort Algorithm](https://www.programiz.com/dsa/insertion-sort)
-- [Selection Sort Algorithm](https://www.programiz.com/dsa/selection-sort)
+[O(n) Example gist](https://gist.github.com/tcelovsky/a62b16ed73af772b7180d03e98ce5f4c)
+
+[O(n²) Example gist](https://gist.github.com/tcelovsky/f33683c40d6fdb30fb9f738879115f5b)
+
+[O(n²) Example 2 gist](https://gist.github.com/tcelovsky/aba19ebcfa797a4dc7eed889ceb932eb)
+
+[O(log n) Example gist](https://gist.github.com/tcelovsky/dd455f417bd0eb09abd3db54e55b9f4a)
+
+[Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+
+[What is Big O Notation Explained: Space and Time Complexity](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
+
+[Bubble Sort Algorithm](https://www.programiz.com/dsa/bubble-sort)
+
+[Insertion Sort Algorithm](https://www.programiz.com/dsa/insertion-sort)
+
+[Selection Sort Algorithm](https://www.programiz.com/dsa/selection-sort)
