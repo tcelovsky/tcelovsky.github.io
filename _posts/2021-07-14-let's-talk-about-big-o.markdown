@@ -3,7 +3,7 @@ layout: post
 title: Let's Talk About Big-O
 date: 2021-07-14 10:00
 permalink: let's_talk_about_big_o
-tags: [Big-O]
+tags: [Big-O, Algorithms]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/let's-talk-about-big-o/sharon-mccutcheon-tn57JI3CewI-unsplash.jpg
 image_caption: true
