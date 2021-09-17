@@ -16,9 +16,9 @@ mailchimp_url:
 ga_analytics: G-E3TT4LY19S
 
 # Contact form setings
-email: tatyana.celovsky@email.com
-contact_page_description: "Fill out the form below to get in touch."
-thankyou_page_description: "Your message has been successfully sent. I'll be in touch very soon!"
+# email: tatyana.celovsky@email.com
+# contact_page_description: "Fill out the form below to get in touch."
+# thankyou_page_description: "Your message has been successfully sent. I'll be in touch very soon!"
 
 # Social links
 twitter: "TatyanaCelovsky"
@@ -29,7 +29,7 @@ dribbble:
 medium:
 instagram:
 pinterest:
-linkedin:
+linkedin: "tatyana-celovsky"
 producthunt:
 quora:
 
@@ -41,8 +41,8 @@ navigation:
     url: /projects
   - text: About
     url: /about
-  - text: Contact Me
-    url: /contact
+  # - text: Contact Me
+  #   url: /contact
   - text: Search
     url: /search
 
