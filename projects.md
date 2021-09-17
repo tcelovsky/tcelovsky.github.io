@@ -4,6 +4,22 @@ title: Projects
 featured_image:
 ---
 
+## WootWoot!
+
+[Live Site](https://tcl-27-shopping-list.web.app/) <br />
+[GitHub](https://github.com/the-collab-lab/tcl-27-smart-shopping-list)
+
+WootWoot! is a smart shopping list app that learns your shopping habits and recommends items based on purchase history. WootWoot! was built as part of [The Collab Lab's](https://the-collab-lab.codes/) Summer 2021 cohort. This was an 8-week collaboration between a remote team of developers that included building and designing the app, submitting pull requests, doing code reviews and presenting product demos. Backend utilizes Google's Firestore and the frontend was bootstrapped with Create React App. Here are a few more details:
+
+- Collaborated on a distributed team of four developers to build a smart shopping list progressive web app (PWA)
+- Utilized Google’s Firestore to store and retrieve list items
+- Implemented user interface employing React and React Bootstrap/CSS for styling
+- Focused on learning how to create pull requests (PRs) on GitHub, resolving merge conflicts, and conducting detailed code reviews
+
+<iframe src="https://drive.google.com/file/d/1Z7hz22WDcPglHfGM5QGs2WkLkwsPUvfI/preview" width="100%" height="480" allow="autoplay"></iframe>
+
+<hr>
+
 ## Launch Calendar
 
 [GitHub](https://github.com/tcelovsky/launch-calendar)
