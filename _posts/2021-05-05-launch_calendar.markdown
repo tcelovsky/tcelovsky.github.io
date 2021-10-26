@@ -11,8 +11,8 @@ photographer_name: SpaceX
 photographer_name_url: https://unsplash.com/@spacex
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _This post is an overview of how I built a webpage that lists upcoming rocket launches around the world with details on the date, time, rocket and mission for each._
