@@ -11,8 +11,8 @@ photographer_name: Jose Castillo
 photographer_name_url: https://unsplash.com/@curiousjorge
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _"Why do you want to be a software engineer?" is not an easy question to answer. There are many reasons and they are different for each person. I wanted to share my reasons, consider this my Personal Statement!_
