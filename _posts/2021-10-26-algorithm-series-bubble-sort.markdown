@@ -65,8 +65,8 @@ Bubble sort compares adjacent items in a list and swaps them if they are not in 
 
 ### Resources 
 
-[Bubble Sort Algorithm gist](<[https://gist.github.com/tcelovsky/a06e2222cc1e5e5d2f0156f54293c9b7](https://www.notion.so/a06e2222cc1e5e5d2f0156f54293c9b7)>)
+[Bubble Sort Algorithm gist](https://gist.github.com/tcelovsky/a06e2222cc1e5e5d2f0156f54293c9b7)
 
-[Optimized Bubble Sort Algorithm gist](<[https://gist.github.com/tcelovsky/8c2e8179ccd8d847e7c5af219960aff5](https://www.notion.so/8c2e8179ccd8d847e7c5af219960aff5)>)
+[Optimized Bubble Sort Algorithm gist](https://gist.github.com/tcelovsky/8c2e8179ccd8d847e7c5af219960aff5)
 
 [Let's Talk About Big-O](http://tatyanacelovsky.com/let's_talk_about_big_o)
