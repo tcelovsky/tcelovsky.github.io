@@ -11,8 +11,8 @@ photographer_name: Sharon McCutcheon
 photographer_name_url: https://unsplash.com/@sharonmccutcheon?utm_source=medium&utm_medium=referral
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 ## What is Big-O?
