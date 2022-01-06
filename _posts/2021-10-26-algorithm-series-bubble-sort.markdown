@@ -11,8 +11,8 @@ photographer_name: Pieter
 photographer_name_url: https://unsplash.com/@pieterpanflute
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _This is a quick tutorial on the bubble sort algorithm and its implementation in Javascript._
