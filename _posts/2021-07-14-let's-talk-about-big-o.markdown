@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's Talk About Big-O
+title: Let's Talk About Big-O - Time Complexity
 date: 2021-07-14 10:00
 permalink: let's_talk_about_big_o
 tags: [Big-O, Algorithms]
