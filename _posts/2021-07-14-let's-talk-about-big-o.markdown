@@ -15,6 +15,8 @@ featured: false
 hidden: false
 ---
 
+_Big-O notation isn't something that we worry too much about while learning to code. After all, our primary goal is to learn how to code. It's no secret that in programming there can be multiple ways to correctly do something, for example, in Javascript there are multiple ways to write functions (think arrow functions vs regular functions), and once we've mastered the basics, it's time to focus on optimization. This is where Big-O notation will enter your vocabulary and you'll want to understand what it actually is. This article is a brief introduction to the Big-O notation._
+
 ## What is Big-O?
 
 Big-O (pronounced "big-oh") is a theoretical measure of the execution of an algorithm; it tells us how much time or memory is needed to execute a function when given the input of size n. In this case, n represents the number of items that will be analyzed by the given function and algorithm is the function itself.
