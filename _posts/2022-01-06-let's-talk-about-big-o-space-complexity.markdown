@@ -5,7 +5,7 @@ date: 2022-01-06 10:00
 permalink: let's_talk_about_big_o_space_complexity
 tags: [Big-O, Algorithms]
 # featured_image_thumbnail:
-featured_image: assets/images/posts/let's-talk-about-big-o/insung-yoon-w2JtIQQXoRU-unsplash.jpg
+featured_image: assets/images/posts/let's-talk-about-big-o/sharon-mccutcheon-tn57JI3CewI-unsplash.jpg
 image_caption: true
 photographer_name: insung yoon
 photographer_name_url: https://unsplash.com/@insungyoon

@@ -5,7 +5,7 @@ date: 2021-07-14 10:00
 permalink: let's_talk_about_big_o
 tags: [Big-O, Algorithms]
 # featured_image_thumbnail:
-featured_image: assets/images/posts/let's-talk-about-big-o/sharon-mccutcheon-tn57JI3CewI-unsplash.jpg
+featured_image: assets/images/posts/let's-talk-about-big-o/insung-yoon-w2JtIQQXoRU-unsplash.jpg
 image_caption: true
 photographer_name: Sharon McCutcheon
 photographer_name_url: https://unsplash.com/@sharonmccutcheon?utm_source=medium&utm_medium=referral
