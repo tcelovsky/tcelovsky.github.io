@@ -7,8 +7,8 @@ tags: [Big-O, Algorithms]
 # featured_image_thumbnail:
 featured_image: assets/images/posts/let's-talk-about-big-o/sharon-mccutcheon-tn57JI3CewI-unsplash.jpg
 image_caption: true
-photographer_name: insung yoon
-photographer_name_url: https://unsplash.com/@insungyoon
+photographer_name: Sharon McCutcheon
+photographer_name_url: https://unsplash.com/@sharonmccutcheon?utm_source=medium&utm_medium=referral
 image_source: Unsplash
 image_source_url: https://unsplash.com/
 featured: true
