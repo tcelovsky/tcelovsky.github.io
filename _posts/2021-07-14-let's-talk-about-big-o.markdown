@@ -118,6 +118,8 @@ Having a good understanding of Big-O notation provides a more well-rounded conte
 
 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
+[Let's Talk About Big-O - Space Complexity](http://tatyanacelovsky.com/let's_talk_about_big_o_space_complexity)
+
 [What is Big O Notation Explained: Space and Time Complexity](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
 
 [Bubble Sort Algorithm](https://www.programiz.com/dsa/bubble-sort)
