@@ -11,8 +11,8 @@ photographer_name: Jess Bailey
 photographer_name_url: https://unsplash.com/@jessbaileydesigns
 image_source: Unsplash
 image_source_url: https://unsplash.com/
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _This is a quick tutorial on the selection sort algorithm and its implementation in Javascript._
